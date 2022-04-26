@@ -1,1 +1,2 @@
 # bt-homework
+# gotov domaci
