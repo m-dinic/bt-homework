@@ -1,5 +1,8 @@
 <?php
+       $name =$_GET['name'];
+       $surname = $_GET["surname"];
+       $gender = $_GET["gender"];
 
-    $name = $_POST["name"];
+      echo "Vase ime je  $name  $surname i vi ste $gender";
 
-    echo $name;
+    ?>
