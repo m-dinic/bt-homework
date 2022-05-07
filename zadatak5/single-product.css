@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+    background-color: #9797f6;
+}
+
+#main_page {
+    height: 900px;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    text-align: center;
+    width: 97.5%;
+    background-color: #e9e9f35c;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    display: flex;
+    height: 30%;
+    margin-top: 2%;
+    flex-direction: column;
+    align-items: center;    
+    padding:2%
+}
+
+.product {
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 40% 55%;
+    grid-template-rows: 100%;
+    column-gap: 2%;
+    row-gap: 10%;
+    width: 90%;
+    height: 100%;
+    padding: 5%;
+}
+
+.related {
+    align-items: center;
+    justify-content:center;
+    border-radius: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    row-gap: 10%;
+    margin-top: 2%;
+    background-color: #f2f2f2;
+    margin-bottom: 10%;
+}
+
+.related-descript {
+    border-radius: 12px;
+    margin: 3%;
+    background-color: #9797f6;
+}
+
+.related-descript:hover {
+    background-color: gray;
+}
+
+img {
+   height: 80%;
+   top: -100%;
+}
+
+.desc {
+    border-radius: 12px;
+    text-align: center;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    font-size: 15px;
+    color: #9797f6;
+}
+
+.h_f {
+    background-color: #3f94496e;
+    overflow: hidden;
+}
+
+.h_f a {
+    padding: 2%;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.h_f a:hover, .active {
+    background-color: #ddd;
+    color: black;
+}
+
+.left-nav {
+    display: flex;
+    float: left;
+}
+
+.right-nav {
+    display: flex;
+    float: right;
+}
