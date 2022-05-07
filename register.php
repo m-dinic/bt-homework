@@ -5,7 +5,7 @@
        $email = $_GET["email"];
        $pass = $_GET["pass"];
        $courses = $_GET["courses"];
-      $postovani = "";
+       $postovani = "";
 
       if ($gender == "Men") {
         $postovani = "Postovani";
@@ -20,8 +20,6 @@
       if (isset($courses)) {
         echo "Vasi odabrani kursevi su: <br>";
         echo implode(",", $courses);
-    } else {
+      } else {
         echo "Niste odabrali kurs. Molimo odaberite kurs sa spiska. ";
-    }
-
-    ?>
+      }
