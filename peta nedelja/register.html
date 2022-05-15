@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="register.php" method="GET">
+
+        <label for="name">Name</label> 
+        <input type="text" name="name" id="name" placeholder="Your name" value="" required><br>
+
+        <label for="surname">Surname</label>
+        <input type="text" name="surname" id="surname" placeholder="Your surname" value="" required><br>
+
+        <label>Gender: </label>
+        <label for="male">Men</label><input type="radio" name="gender" id="male" value="Men">
+        <label for="female">Women</label><input type="radio" name="gender" id="female" value="Women"><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Your email" value="" required><br>
+
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass" placeholder="Your password" value="" required><br>
+
+        <label for="re-pass">Retyped password</label>
+        <input type="password" name="re-pass" id="re-pass" placeholder="Retyped password" value="" required><br>
+
+        <label>Courses</label>
+        <label for="php">PHP</label><input type="checkbox" name="courses[]" id="php" value="PHP">
+        <label for="css">CSS</label><input type="checkbox" name="courses[]" id="css" value="CSS">
+        <label for="js">JS</label><input type="checkbox" name="courses[]" id="js" value="JS"><br>
+
+        <label for="photo">Photo</label>
+        <input type="file" name="photo" id="photo"><br>
+
+        <input type="submit" value="Submit" name="submit">
+
+        <input type="reset" value="Reset" name="reset"> 
+
+    </form>
+
+</body>
+
+</html>
